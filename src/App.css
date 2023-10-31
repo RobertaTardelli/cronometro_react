@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.oval{
+
+  width: 80%; /* Largura do corpo da página */
+  height: 50vh; /* Altura do corpo da página */
+  background-color: #007bff; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  border-radius: 50%; /* Definindo um valor de border-radius para criar uma forma oval */
+  margin: 0 auto; /* Centraliza o body na página horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.relogio {
+  margin-top: 100px;
 }

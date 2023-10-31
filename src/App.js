@@ -45,7 +45,9 @@ function App() {
   return (
    
     <>
-      <Relogio minutos={minutos} segundos={segundos} mili={mili}/>
+    <h1 className='oval'>  Com Tanto Tempo! &#128515; <Relogio minutos={minutos} segundos={segundos} mili={mili}/></h1>
+   
+
       <div className='botoes'>
         <Botao nome='Iniciar' className='iniciar' onClick={() => setLigado(true)} />
         <Botao nome='Pausar' className='pausar' onClick={() => pausa()}/>

@@ -3,18 +3,30 @@ section{
     justify-content: center;
     width: 50vw;
     min-width: 839px;
+    color: white
 }
 body{
     display: flex;
     justify-content: center;
-    margin-top: 3vh;
+    margin-top: 18vh;
     font-size: xx-large;
     min-width: 839px;
+    align-items: center;
+   
 }
 .mili{
     width: 6vw;
+   color: white; /* Cor para os minutos */
+   margin-top: 50px; 
+   white-space: nowrap;
 }
 .seg{
     width: 6vw;
     text-align: center;
+    color:white;
+    margin-top: 50px; 
+    white-space: nowrap;
 }
+.relogio {
+    margin-top: 50px;
+  }
